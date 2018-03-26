@@ -27,7 +27,7 @@ CodeMirror.defineMode("liscript", function () {
         return obj;
     }
 	
-    var keywords = makeKeywords("+ - * / mod ++   > >= < <= = /= eq?   def set! get   quote typeof print trace bind-symbols   cons car cdr   cond   lambda macro macroexpand  eval eval-in");
+    var keywords = makeKeywords("+ - * / mod ++   > >= < <= = /= eq?   def set! get   quote typeof print trace bind-symbols message   cons car cdr   cond   lambda macro macroexpand  eval eval-in");
 
     //var indentKeys = makeKeywords("define let letrec let* lambda");
     var indentKeys = makeKeywords("def lambda");
